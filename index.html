@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="author"
+    content="Lucas Diego, Layssa Matos, Luiz Felipe, Gabriel Macario, Jean Wdson, Pedro Lucas, Alana Kamienski" />
+  <title>PERFUMARIA ADS/2020</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">PERFUMARIA - ADS/2020</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Marcas <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lançamentos</a>
+        </li>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mais...
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Maquiagem</a>
+            <a class="dropdown-item" href="#">Higiene e Cuidados Pessoais</a>
+            <a class="dropdown-item" href="#">Infantil e Teen</a>
+          </div>
+        </div>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="ex: Perfume 100ml" aria-label="Search" />
+        <button class="btn btn-outline-primary" type="submit">
+          Pesquisar
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <main>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/carousel-slide1.jpg" alt="sldie perfumes">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <div id="transparencia-texto">
+                <h1>Conheça a nossa seleção especial de Natal:</h1>
+                <p>
+                  O Kit Zaad é uma ótima opção de presente criativo masculino
+                  para o Natal. Com uma fragrância inspirada na necessidade de
+                  viajar, Zaad combina a Bergamota da Itália e o Cedro dos
+                  Estados Unidos em uma essência para homens contemporâneos,
+                  sofisticados e seletivos.
+                </p>
+
+                <a class="btn btn-lg btn-primary" href="#" role="button">Confira..</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel-slide2.jpg" alt="slide perfumes">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <div id="transparencia-texto">
+                <h1>Procurando presentes femininos?</h1>
+                <p>
+                  O Kit Lily traz produtos especialmente para mulheres
+                  sofisticadas e que gostam de manter seu lado romântico e
+                  sonhador. O Lily Eau de Parfum traz a mais pura fragrância dos
+                  lírios para o dia a dia de mulheres românticas e que apreciam
+                  o que há de bom na vida.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Comprar</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel-slide3.jpg" alt="slide perfumes">
+
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <div id="transparencia-texto">
+                <h1>Aproveite até 20% OFF em presentes infantojuvenis:</h1>
+                <p>
+                  O Kit Presente Boti Baby Primeiros Vôos é um Lavanda Musk
+                  composto por duas miniaturas: uma de Loção Hidratante de Banho
+                  e Pós-Banho e um Sabonete Líquido Cabelo e Corpo. Ideal para
+                  levar em viagens com o bebê, os produtos possuem o tamanho
+                  ideal para caber na bolsa dos bebês. Feitos para crianças de 0
+                  a 2 anos, os itens possuem Lavanda na fórmula, deixando o
+                  banho do seu bebê relaxante e calmante.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Detalhes..</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"> Anterior </span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"> Próximo </span>
+      </a>
+    </div>
+
+    <!-- CONTEÚDO - PERFUMES-->
+    <div class="row">
+      <div class="col-lg-4">
+        <img id="produto" src="images/Quasar.png" alt="Perfume Quasar">
+        <svg class="bd-placeholder-img rounded-circle" width="150" height="150" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        </svg>
+
+        <h2>Quasar Next Colônia 50ml</h2>
+        <p>
+          Essa colônia teen foi desenvolvida exclusivamente para meninos de 7
+          a 12 anos. Possui uma fragrância Fougère Fresca intensa por conta de
+          suas notas frescas de Bergamota, Limão, Folhas Verdes e fundo
+          amadeirado. É a combinação certa para acompanhar as mais divertidas
+          aventuras.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Comprar &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img id="produto" src="images/malbec.jpg" width="160px" height="150px" alt="">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        </svg>
+
+        <h2>Malbec Gold 50 ml</h2>
+        <p>
+          Malbec Gold possui uma fragrância com componentes tão valiosos como
+          o ouro. Com notas especiadas e cítricas, o desodorante colônia
+          masculino tem pirâmide olfativa amadeirada ambarada, perfeita para
+          homem que quer ressaltar o seu poder de sedução.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Comprar &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img id="produto" src="images/arbo.jpg" alt="Perfume Arbo">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" />
+          <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        </svg>
+
+        <h2>Arbo Desodorante Colônia 100ml</h2>
+        <p>
+          Arbo Desodorante Colônia possui notas exclusivas captadas no ar da
+          montanha, para quem busca se desconectar da rotina. Por ser afastada
+          do ambiente urbano, a montanha representa a busca pelo bem-estar
+          físico e mental, a partir da vivência de momentos únicos com a
+          natureza.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Comprar &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+    <!-- /.row -->
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">
+          Nossa História. <span class="text-muted">PERFUMARIA ADS/2020.</span>
+        </h2>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis
+          placeat repellat saepe numquam incidunt, odio earum perferendis.
+          Natus quasi eveniet autem omnis architecto veniam aliquam rem
+          placeat exercitationem possimus.</br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          vitae aspernatur omnis ex eligendi maiores adipisci et voluptates expedita? Dolore,
+          placeat sed nam maxime maiores harum exercitationem dolorum ut quas.</br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus aliquam corporis provident,
+          totam modi impedit laboriosam saepe eveniet rem distinctio veritatis cumque necessitatibus nam.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/img-perfume.jpg" alt="perfume e flores">
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+    <footer class="container">
+      <p class="float-right"><a href="#">Voltar para o topo da página</a></p>
+      <p>
+        &copy; 2020 FATEC - MATO GROSSO. &middot;
+        <a href="https://policies.google.com/privacy?hl=pt-BR" target="_blank">Privacidade</a> &middot; <a
+          href="https://policies.google.com/terms?hl=pt-BR" target="_blank">Termos</a>
+      </p>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+/* CAROUSEL
+  -------------------------------------------------- */
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+/* RESPONSIVO CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+/* Conteúdo */
+
+.row {
+    padding: 50px;
+    background-color: rgb(206, 146, 255);
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: rgb(182, 94, 255);
+}
+
+.nav-link {
+    color: rgb(182, 94, 255);
+}
+
+img {
+    border-radius: 30px;
+}
+
+#transparencia-texto {
+    background-color: rgba(130, 52, 255, 0.534);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/*Imagens do circulo*/
+
+#produto {
+    position: absolute;
+    padding: 0px;
+    border-radius: 70%;
+    width: 160px;
+    height: 155px;
+    z-index: 10;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+svg {
+    margin: 15px;
+    padding: 15px;
+}
